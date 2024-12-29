@@ -1,0 +1,47 @@
+a {
+  font-size:14px;
+  font-weight:700
+}
+.superNav {
+  font-size:13px;
+}
+.form-control {
+  outline:none !important;
+  box-shadow: none !important;
+}
+@media screen and (max-width:540px){
+  .centerOnMobile {
+    text-align:center
+  }
+}
+
+.hero-section {
+  background-image: url('https://t3.ftcdn.net/jpg/03/20/68/66/360_F_320686681_Ur6vdYQgDC9WiijiVfxlRyQffxOgfeFz.jpg'); /* Replace with the actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 650px;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-left: 650px;
+}
+
+.hero-section .btn {
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  margin-left: 650px;
+}
