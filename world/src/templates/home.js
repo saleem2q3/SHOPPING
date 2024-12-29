@@ -4,27 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Home = () => {
-  const heroSectionStyle = {
-    backgroundImage: 'url("https://t3.ftcdn.net/jpg/03/20/68/66/360_F_320686681_Ur6vdYQgDC9WiijiVfxlRyQffxOgfeFz.jpg")',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-    textAlign: 'center',
-  };
-  
-  const HeroSection = () => {
-    return (
-      <div style={heroSectionStyle}>
-        <h1 style={{ fontSize: '4rem', fontWeight: 'bold', marginLeft: '650px' }}>Welcome to Our Website</h1>
-        <p style={{ fontSize: '1.25rem', marginTop: '1rem', marginLeft: '650px' }}>Your journey starts here.</p>
-        <button style={{ fontSize: '1rem', padding: '0.75rem 2rem', fontWeight: 'bold', marginLeft: '650px' }}>Get Started</button>
-      </div>
-    );
-  };
   return (
     <div>
       {/* Super Navigation Bar */}
